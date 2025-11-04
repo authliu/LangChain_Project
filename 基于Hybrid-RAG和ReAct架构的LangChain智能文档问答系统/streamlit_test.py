@@ -1,7 +1,6 @@
 
 # 导入构建链的相关库
 
-from langchain.chat_models import init_chat_model
 from langchain_openai.chat_models import ChatOpenAI
 from langchain.prompts import ChatPromptTemplate
 from langchain.agents import create_react_agent,AgentExecutor
